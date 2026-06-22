@@ -83,7 +83,7 @@ MyDrive/skripsi/experiments/video_1e-4/checkpoints/best.pth
 
 Checkpoint model dapat diakses di:
 
-Google Drive: **[https://drive.google.com/drive/folders/16DLMhZVcZ9yOXi8x3AgcmSHLYdH-4jEk?usp=sharing]**
+Google Drive: **https://drive.google.com/drive/folders/16DLMhZVcZ9yOXi8x3AgcmSHLYdH-4jEk?usp=sharing**
 
 ## Struktur Repo
 
@@ -134,5 +134,5 @@ grad-cam   psutil   tqdm
 
 ---
 
-[Lavly Rantissa Zunnuraina Rusdi] · [lavly.rantissa@gmail.com] · [https://www.linkedin.com/in/lavlyrantissa/]
+Lavly Rantissa Zunnuraina Rusdi · lavly.rantissa@gmail.com · https://www.linkedin.com/in/lavlyrantissa/
 
