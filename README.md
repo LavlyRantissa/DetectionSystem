@@ -79,7 +79,60 @@ Instalasi dependensi dan download dataset dilakukan secara otomatis di cell pert
 MyDrive/skripsi/experiments/image_1e-4/checkpoints/best.pth
 MyDrive/skripsi/experiments/video_1e-4/checkpoints/best.pth
 ```
+## Model Checkpoint
+
+Checkpoint model dapat diakses di:
+
+Google Drive: **[https://drive.google.com/drive/folders/16DLMhZVcZ9yOXi8x3AgcmSHLYdH-4jEk?usp=sharing]**
 
 ## Struktur Repo
 
+```
+skripsi/
+├── 01_image_model.ipynb
+├── 02_video_model.ipynb
+├── 03_detection_system.ipynb
+│
+├── shared_splits/               # split CSV
+│   ├── image_split.csv
+│   ├── image_binary_input.csv
+│   ├── video_split.csv
+│   └── mixed_input.csv
+│
+├── cleaning_reports/            # ringkasan cleaning dataset
+│   ├── image/
+│   └── video/
+│
+├── experiments/
+│   ├── selection_image/         # hasil seleksi backbone gambar
+│   ├── selection_video/         # hasil seleksi backbone video
+│   ├── image_1e-4/
+│   │   ├── reports/             # metrik dan classification report
+│   │   ├── visualizations/
+│   │   └── checkpoints/        
+│   ├── video_1e-4/
+│   │   ├── reports/
+│   │   ├── visualizations/
+│   │   └── checkpoints/         
+│   └── detection_system/
+│       ├── reports/
+│       └── visualizations/
+│
+├── visualizations/              
+├── requirements.txt
+└── .gitignore
+```
+
 ## Dependensi
+```
+torch >= 2.0 (cu118)   torchvision   timm
+opencv-python-headless   Pillow   scikit-learn
+numpy   pandas   matplotlib   seaborn
+datasets   huggingface_hub   pyarrow
+grad-cam   psutil   tqdm
+```
+
+---
+
+[Lavly Rantissa Zunnuraina Rusdi] · [lavly.rantissa@gmail.com] · [https://www.linkedin.com/in/lavlyrantissa/]
+
