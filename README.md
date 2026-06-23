@@ -89,9 +89,9 @@ Google Drive: **https://drive.google.com/drive/folders/16DLMhZVcZ9yOXi8x3AgcmSHL
 
 ```
 skripsi/
-├── 01_image_model.ipynb
-├── 02_video_model.ipynb
-├── 03_detection_system.ipynb
+├── image_model.ipynb
+├── video_model.ipynb
+├── detection_system.ipynb
 │
 ├── shared_splits/               # split CSV
 │   ├── image_split.csv
