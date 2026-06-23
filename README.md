@@ -67,12 +67,6 @@ image_model.ipynb → video_model.ipynb → detection_system.ipynb
 
 Instalasi dependensi dan download dataset dilakukan secara otomatis di cell pertama masing-masing notebook.
 
-| Notebook | Output utama | Estimasi waktu (Colab A100) |
-|---|---|---|
-| `image_model.ipynb` | `image_split.csv`, `image_binary_input.csv`, `mixed_input.csv`, checkpoint gambar | 3–5 jam |
-| `video_model.ipynb` | `video_split.csv`, checkpoint video | 2–3 jam |
-| `detection_system.ipynb` | Laporan evaluasi akhir, grafik perbandingan, visualisasi Grad-CAM | 30–60 menit |
-
 **Jika tidak ingin melatih ulang dari awal**, unduh checkpoint dari Google Drive (link di bawah), letakkan di path yang sesuai, kemudian dapat langsung menjalankan `detection_system.ipynb`.
 
 ```
