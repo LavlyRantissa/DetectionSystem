@@ -77,7 +77,7 @@ MyDrive/skripsi/experiments/video_1e-4/checkpoints/best.pth
 
 Checkpoint model dapat diakses di:
 
-Google Drive: **https://drive.google.com/drive/folders/16DLMhZVcZ9yOXi8x3AgcmSHLYdH-4jEk?usp=sharing**
+Google Drive: **https://drive.google.com/drive/folders/1_cjjB_2NxaMXTvLT3OUVt6b0TqqcuV32**
 
 ## Struktur Repo
 
